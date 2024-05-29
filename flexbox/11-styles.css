@@ -529,9 +529,11 @@
     ============================= */
     .hero-article {
         background-size: 150rem 100rem;
-        background-position: 50% 0;   
+        background-position: 50% 0;
     }
+
     .hero-article::before {
+        content: '';
         background: rgba(0, 0, 0, 0.8);
         position: absolute;
         top: 0;
@@ -540,11 +542,13 @@
         bottom: 0;
         z-index: 0;
     }
+
     .hero-article .section-inner {
         text-align: center;
         align-items: center;
         min-height: 40vh;
     }
+
     .hero-article .section-body {
         position: relative;
         padding: 7rem 0 0;
